@@ -15,6 +15,7 @@ body{
 .main{
     /* max-width:1380px; */
     padding:20px;
+    max-width:1080px;
 }
 .main a{
     color:#555;
@@ -26,18 +27,29 @@ body{
     gap:2rem;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom:2rem;
+    
+}
+.home_row{
+    display:flex;
+}
+.intro{
+    font-size: 30px;
+    flex:0.5;
+    a{
+        font-size: 20px;
+    }
 }
 .box{
-    
-    flex:1;
+    flex: 1;
     border:1px solid #666;
-    padding:2rem;
+    padding:4rem;
 }
 .skills_box{
     margin-top:2rem;
 }
 .info{
-    display: grid;
+    display: block;
     grid-template-columns: max-content 1fr;
     column-gap: 4rem;
     row-gap: .6rem;
