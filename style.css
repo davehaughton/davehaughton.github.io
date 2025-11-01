@@ -12,10 +12,13 @@ body{
 .top{
     margin-bottom:4rem;
 }
-.main{
+.main_wrap{
     /* max-width:1380px; */
-    padding:20px;
+    padding:30px;
+    border-radius:30px;
+    margin-top:40px;
     max-width:1080px;
+    background:#f9f9f9;
 }
 .main a{
     color:#555;
@@ -34,16 +37,22 @@ body{
     display:flex;
 }
 .intro{
-    font-size: 30px;
+    font-size: 24px;
     flex:0.5;
-    a{
-        font-size: 20px;
-    }
+    margin-bottom:30px;
+    
 }
+.intro a{
+        font-size: 20px;
+        color:#000;
+    }
 .box{
-    flex: 1;
-    border:1px solid #666;
-    padding:4rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    border-top:1px solid #000;
+}
+h2{
+    margin-bottom:2rem;
 }
 .skills_box{
     margin-top:2rem;
@@ -59,17 +68,43 @@ body{
 }
 
 .info_list{
-    display: flex;
-    gap:4rem;
+   
 }
 .info_list .list{
     flex:1;
    
     display: block;
     ul{
-    padding:0px 12px;
+        list-style: none;
+    padding:0px 0px;
+     display: flex;
+    gap:1rem;
+    li{
+
+    }
     }
 }
+
+.accordion{
+    margin-top:50px;
+    margin-bottom:50px;
+    background:none;
+    --bs-accordion-active-bg:#f5f5f5;
+    --bs-accordion-active-color:#000;
+    outline:none !important;
+}
+.accordion-item{
+background:none;
+}
+.accordion-button{
+    background:none;
+    outline:none !important;
+}
+.accordion-item a{
+    color:#000;
+}
+
+
 
 
 @media (max-width: 768px) {
@@ -85,10 +120,7 @@ body{
     .main_row .box{
         margin-top:2rem;
     }
-    .box{
-        padding:1rem;
-        
-    }
+    
     .info{
         display: block;
     }
