@@ -1,5 +1,5 @@
 function lyricsShow(){
-   
+   document.querySelector('.lyrics').innerHTML="";
     for(let i=99;i>=0;i--){
         
         if(i>1){
@@ -27,7 +27,7 @@ function fadeInRows(){
 
                 let rowDiv = document.querySelector('.row'+i);
                 rowDiv.classList.add('show');
-                
+
             }, (99 - i) * 100); 
         }
 
