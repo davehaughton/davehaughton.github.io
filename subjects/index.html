@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Subjects</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts.js"></script>
+		
+    </head>
+    <body>
+        <div class="main_wrap">
+            <h1>Subjects</h1>
+
+           
+            <div class="progress_bar">
+                <div class="line"></div>
+                <div class="circle active circle_1">1</div>
+                <div class="circle circle_2">2</div>
+                <div class="circle circle_3">3</div>
+                
+            </div>
+            
+            <div class="form_container subjects_form">
+                 <h3>How many subjects did you take?</h3>
+                <form onsubmit="subjects(event)" id="theForm">
+                    <div class="form-group">
+                        <label for="subjectNumber">Enter your subject number</label>
+                        <input type="number" class="form-control" id="subjectNumber" placeholder="i.e. 5" required>
+                    </div>
+                    <button type="submit" class="btn form_btn">Submit</button>
+                </form>
+            </div>
+
+            <div class="form_container grades">
+                <h3>What scores did you get</h3>
+                <form onsubmit="grades(event)" id="theForm">
+                    <div id="subjectGrades"></div>
+                    <!-- repeatable -->
+                    <!-- <div class="form-group">
+                        <label for="subjectNumber">Enter your score for subject <span></span></label>
+                        <input type="number" class="form-control" id="subjectNumber" placeholder="i.e. 86" required>
+                    </div> -->
+                     <!-- repeatable -->
+
+
+                    <button type="submit" class="btn form_btn">Submit</button>
+                </form>
+            </div>
+            <div class="table_wrap hide">
+                <h3>Here is your final grade</h3>
+                <div class="table_wrap_inner">
+                    
+                    <table class="result_list table">
+                        <thead>
+                        <tr>
+                            <th>Subject no.</th>
+                            <th>Score</th>
+                            <th>Grade</th>
+                        </tr>
+                        </thead>
+                        <tbody class="table_body">
+
+                        </tbody>
+
+                    </table>
+                </div>
+                
+            </div>
+           
+           
+            
+        </div>
+    </body>
+</html>
