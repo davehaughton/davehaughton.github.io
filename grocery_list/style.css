@@ -1,0 +1,100 @@
+body{
+    background:#f4f3f4;
+    color:#222;
+}
+
+.main_wrap{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    width:100%;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding:6vh 30vw;
+
+}
+h1{
+    font-weight: bold;
+}
+
+.form-group{
+    margin:20px 0px;
+    
+    text-align: left;
+}
+input[type=text]{
+    margin-right:10px;
+}
+label{
+    margin-bottom:5px;
+}
+
+.form_btn{
+    background:#222;
+    color:#fff;
+    width:100%;
+}
+.form_btn:hover{
+    background:#00f;
+    color:#fff;
+}
+.form_btn:focus{
+    background:#00f;
+    color:#fff;
+}
+
+.form_container .inner{
+    text-align: left;
+    font-size: 21px;
+    line-height: 1.2em;
+}
+
+.title_row{
+    margin:20px 0px;
+}
+.add_item{
+    border:1px solid #222;
+    background:none;
+    padding:5px 15px;
+    border-radius:4px;
+    margin-left:15px;
+}
+.edit_list{
+    border:1px solid #222;
+    background:none;
+    padding:5px 15px;
+    border-radius:4px;
+    width:100%;
+}
+.remove_btn{
+    border:1px solid #222;
+    background:none;
+    padding:2px 6px;
+    border-radius:4px;
+    margin-left:5px;
+}
+
+.grocery_wrap_inner{
+    margin:40px;
+    border:1px solid #222;
+    padding:20px;
+    text-align: left;
+}
+.grocery_wrap_inner > ul{
+    padding:10px;
+    margin:0px 0px 30px 0px;
+}
+.grocery_wrap_inner > ul > li{
+    border-bottom:1px solid #222;
+    min-width:200px;
+    padding:10px 0px;
+ }
+
+.show{
+    display:block;
+}
+.hide{
+    display:none;
+}
+

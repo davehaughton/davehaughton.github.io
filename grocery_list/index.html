@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grocery List</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts.js"></script>
+		
+    </head>
+    <body>
+        <div class="main_wrap">
+            <h1>Grocery List</h1>
+
+            <div id="grocery_form" class="form_container">
+               <div class="title_row">
+                        <span class="add_title">Add grocery item</span> <button class="add_item" onClick="addListItem(event)">+ add</button>
+                    </div>
+
+                <form onsubmit="showGroceries(event)" id="theForm">
+                    
+
+                    <div id="grocery_items"></div>
+                    
+                    <button type="submit" class="btn form_btn">Generate list</button>
+                </form>
+            </div>
+
+            
+            <div id="list_wrap" class="hide">
+                <h3>Here is your grocery list</h3>
+                <div class="grocery_wrap_inner">
+                    <ul id="the_list">
+
+                    </ul>
+                    <button class="edit_list" onClick="editList(event)">Edit the list</button>
+                   
+                </div>
+                
+            </div>
+           
+           
+            
+        </div>
+    </body>
+</html>
