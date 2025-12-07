@@ -1,0 +1,517 @@
+.about-us-page, .sustainability-page {
+    padding-top:0px;
+}
+.main_wrap {
+    padding-top:0;
+}
+.navbar-container {
+    background:transparent;
+    border-bottom:none;
+}
+.navbar-container .desktop-nav .navbar-menu li a {
+    color:#FBF9F5;
+}
+.navbar-container .top_logo {
+    height:80px;
+    margin-top:15px;
+}
+.mobile-menu-toggle .burger-line {
+    background-color:#FBF9F5;
+}
+.nav-normal {
+    background:#FBF9F5;
+    border-bottom:rgba(40, 40, 40, 0.1) 1px solid;
+}
+.nav-normal .desktop-nav .navbar-menu li a {
+    color:#D1082A;
+}
+.nav-normal .top_logo {
+    margin-top:0px;
+    height:60px;
+}
+.nav-normal .mobile-menu-toggle .burger-line {
+    background-color:#D1082A;
+}
+.nav-normal .mobile-menu-toggle.active .burger-line {
+    background-color:#FBF9F5;
+}
+.hero-frame {
+    position:relative;
+    margin:10px;
+    border-radius:48px;
+    overflow:hidden;
+    display:flex;
+    min-height:calc(100vh - 20px);
+    align-items:center;
+}
+.hero-frame::before {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:300px;
+    background:linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
+    z-index:1;
+    pointer-events:none;
+}
+.hero-img {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.hero-text {
+    position:relative;
+    z-index:2;
+    color:#FBF9F5;
+    padding:20px;
+    max-width:1000px;
+    width:90%;
+    text-align:center;
+    margin:0 auto;
+}
+.hero-eyebrow {
+    font-size:0.95rem;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    margin-bottom:20px;
+    text-shadow:0 2px 20px rgba(0,0,0,0.6);
+}
+.hero-text h1 {
+    color:#D1082A;
+    text-shadow:0 2px 20px rgba(0,0,0,0.6);
+}
+.hero-text > p {
+    text-shadow:0 2px 20px rgba(0,0,0,0.6);
+}
+.smoking-hero-section .hero-frame {
+    min-height:70vh;
+}
+.smoking-hero-text {
+    max-width:600px;
+    text-align:left;
+    margin:0 0 0 5%;
+}
+.smoking-features {
+    list-style:none;
+    padding:0;
+    margin-top:24px;
+}
+.smoking-features li {
+    margin-bottom:12px;
+    padding-left:30px;
+    position:relative;
+    text-shadow:0 2px 10px rgba(0,0,0,0.6);
+}
+.smoking-features li::before {
+    content:"\2713";
+    position:absolute;
+    left:0;
+    color:#D1082A;
+    font-weight:bold;
+}
+.split-section {
+    padding:80px 0;
+}
+.split-section .container {
+    max-width:1600px;
+    padding:0 80px;
+}
+.split-section .row {
+    margin:0;
+    gap:60px;
+}
+.split-section .col-lg-6 {
+    padding:0;
+    flex:1;
+    min-width:400px;
+}
+.wire-eyebrow {
+    color:#555;
+    font-size:0.75rem;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    margin-bottom:16px;
+}
+.split-image-frame {
+    border-radius:48px;
+    overflow:hidden;
+    min-height:550px;
+}
+.split-image {
+    width:100%;
+    height:100%;
+    min-height:550px;
+    object-fit:cover;
+}
+.split-section h2 {
+    color:#D1082A;
+}
+.split-section ul {
+    list-style:none;
+    padding:0;
+    margin:32px 0;
+}
+.split-section ul li::before {
+    content:"\2022";
+    color:#D1082A;
+    font-weight:bold;
+    width:1.2em;
+    margin-right:10px;
+    display:inline-block;
+}
+.button-row {
+    margin-top:40px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.btn-outline {
+    background:none;
+    color:#222;
+    display:flex;
+    align-items:center;
+    position:relative;
+    border:1px solid #222;
+    padding:12px 50px 12px 20px;
+}
+.btn-outline:after {
+    content:url('../images/black-arrow.svg');
+    transition:all 0.3s ease;
+    position:absolute;
+    right:16px;
+    top:15px;
+}
+.btn-outline:hover {
+    background:none;
+    color:#222;
+    display:flex;
+    align-items:center;
+    position:relative;
+    border:1px solid #222;
+    padding:12px 50px 12px 20px;
+    background:#222;
+    color:#FBF9F5;
+}
+.btn-outline:hover:after {
+    content:url('../images/white-arrow.svg');
+    right:12px;
+}
+.stats-section {
+    background:#F2EEE5;
+    padding:80px 0;
+    text-align:center;
+    border-radius:24px;
+    margin:20px 10px;
+    padding:80px 0;
+}
+.stats-heading {
+    color:#D1082A;
+}
+.stat-card {
+    background:transparent;
+    border:none;
+}
+.stat-card .stat-number {
+    font-size:4rem;
+    font-weight:700;
+    color:#D1082A;
+}
+.stat-card .stat-label {
+    opacity:0.8;
+    color:#333;
+}
+.accreditation-section {
+    padding:60px 0;
+    overflow:hidden;
+}
+.accreditation-carousel-wrapper {
+    overflow:hidden;
+}
+.accreditation-carousel-inner {
+    display:flex;
+    gap:80px;
+    padding:20px 0;
+    animation:scroll-accreditation 25s linear infinite;
+    width:fit-content;
+}
+.accreditation-logo {
+    height:70px;
+    object-fit:contain;
+    opacity:0.75;
+    transition:opacity 0.3s ease;
+}
+.accreditation-logo:hover {
+    height:70px;
+    object-fit:contain;
+    opacity:1;
+    transition:opacity 0.3s ease;
+}
+@keyframes scroll-accreditation {
+    to {
+        transform:translateX(-50%);
+    }
+}
+.hero-frame-integrated {
+    position:relative;
+    margin:10px 10px 0;
+    border-radius:48px 48px 0 0;
+    overflow:hidden;
+    display:flex;
+    min-height:calc(100vh - 20px);
+    align-items:center;
+}
+.hero-frame-integrated::before {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:300px;
+    background:linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
+    z-index:1;
+}
+.hero-img-integrated {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.hero-text-integrated {
+    position:relative;
+    z-index:2;
+    color:#FBF9F5;
+    padding:20px;
+    max-width:1000px;
+    width:90%;
+    text-align:center;
+    margin:0 auto;
+}
+.hero-text-integrated h1 {
+    color:#D1082A;
+    text-shadow:0 2px 20px rgba(0,0,0,0.6);
+}
+.hero-text-integrated > p {
+    text-shadow:0 2px 20px rgba(0,0,0,0.6);
+}
+.sustainability-banner-integrated {
+    background-color:#1a5632;
+    padding:50px 20px;
+    margin:0 10px 20px;
+    border-radius:0 0 48px 48px;
+    position:relative;
+    top:-5px;
+}
+.sustainability-banner-integrated h2 {
+    color:white;
+    font-size:1.75rem;
+    margin:0;
+}
+.sustainability-hero-alt {
+    background:#1a5632;
+    padding:40px;
+    border-radius:24px;
+}
+@media (max-width: 960px) {
+    .hero-frame {
+        min-height:60vh;
+        border-radius:24px;
+    }
+    .split-section .row {
+        flex-direction:column;
+        gap:30px;
+    }
+    .split-section .col-lg-6 {
+        min-width:100%;
+    }
+    .split-section .container {
+        padding:0 30px;
+    }
+    .split-image-frame {
+        min-height:55vw;
+        border-radius:24px;
+        margin-bottom:30px;
+    }
+    .split-image {
+        min-height:55vw;
+    }
+    .stats-section {
+        padding:60px 0;
+    }
+    .stat-card .stat-number {
+        font-size:3rem;
+    }
+    .accreditation-logo {
+        height:50px;
+    }
+    .accreditation-carousel-inner {
+        gap:50px;
+    }
+    .hero-frame-integrated {
+        min-height:60vh;
+        border-radius:24px 24px 0 0;
+    }
+    .sustainability-banner-integrated {
+        padding:30px 20px;
+        border-radius:0 0 24px 24px;
+    }
+    .sustainability-banner-integrated h2 {
+        font-size:1.2rem;
+    }
+}
+@media (max-width: 768px) {
+    .hero-frame {
+        min-height:50vh;
+        border-radius:16px;
+    }
+    .smoking-hero-section .hero-frame {
+        min-height:60vh;
+    }
+    .smoking-hero-text {
+        max-width:100%;
+        margin:0 5%;
+    }
+    .split-section {
+        padding:50px 0;
+    }
+    .split-section .container {
+        padding:0 20px;
+    }
+    .split-image-frame {
+        min-height:60vw;
+        border-radius:16px;
+    }
+    .split-image {
+        min-height:60vw;
+    }
+    .stats-section {
+        padding:40px 0;
+        border-radius:16px;
+    }
+    .stat-card .stat-number {
+        font-size:2.5rem;
+    }
+    .accreditation-logo {
+        height:40px;
+    }
+    .accreditation-carousel-inner {
+        gap:40px;
+    }
+    .hero-frame-integrated {
+        min-height:50vh;
+        border-radius:16px 16px 0 0;
+    }
+    .sustainability-banner-integrated {
+        padding:25px 15px;
+        border-radius:0 0 16px 16px;
+    }
+    .sustainability-banner-integrated h2 {
+        font-size:1.1rem;
+    }
+}
+@media (max-width: 599px) {
+    .hero-frame {
+        min-height:70vh;
+        margin:5px;
+        border-radius:12px;
+    }
+    .hero-frame::before {
+        height:200px;
+    }
+    .hero-text {
+        padding:15px;
+        width:95%;
+    }
+    .hero-eyebrow {
+        font-size:0.75rem;
+        letter-spacing:0.1em;
+        margin-bottom:15px;
+    }
+    .smoking-hero-section .hero-frame {
+        min-height:80vh;
+    }
+    .smoking-hero-text {
+        margin:0 3%;
+    }
+    .smoking-features li {
+        font-size:0.9rem;
+    }
+    .split-section {
+        padding:40px 0;
+    }
+    .split-section .container {
+        padding:0 15px;
+    }
+    .split-section .row {
+        gap:20px;
+    }
+    .split-image-frame {
+        min-height:65vw;
+        border-radius:12px;
+        margin-bottom:20px;
+    }
+    .split-image {
+        min-height:65vw;
+    }
+    .button-row {
+        flex-direction:column;
+        gap:12px;
+        margin-top:30px;
+    }
+    .button-row .btn,
+    .button-row .btn-outline {
+        width:100%;
+        justify-content:center;
+    }
+    .stats-section {
+        padding:30px 10px;
+        margin:10px 5px;
+        border-radius:12px;
+    }
+    .stat-card .stat-number {
+        font-size:2rem;
+    }
+    .stat-card .stat-label {
+        font-size:0.85rem;
+    }
+    .accreditation-section {
+        padding:40px 0;
+    }
+    .accreditation-logo {
+        height:35px;
+    }
+    .accreditation-carousel-inner {
+        gap:30px;
+    }
+    .hero-frame-integrated {
+        min-height:70vh;
+        margin:5px 5px 0;
+        border-radius:12px 12px 0 0;
+    }
+    .hero-frame-integrated::before {
+        height:200px;
+    }
+    .hero-text-integrated {
+        padding:15px;
+        width:95%;
+    }
+    .sustainability-banner-integrated {
+        padding:20px 12px;
+        margin:0 5px 10px;
+        border-radius:0 0 12px 12px;
+    }
+    .sustainability-banner-integrated h2 {
+        font-size:0.95rem;
+        line-height:1.4;
+    }
+}
+@media (max-width: 599px) {
+    .hero-frame {
+        min-height:70vh;
+    }
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DewValley Foods</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Dew Valley Foods is Europe's largest and leading cooked bacon manufacturer. ">
+        <meta name="keywords" content="bacon, cooked bacon, bacon manufacturer, bacon products, bacon company">
+        <meta name="robots" content="index, follow">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/mike.css">
+        <script src="js/common.js"></script>
+		<script src="js/mike.js"></script>
+        
+
+        
+		
+    </head>
+    <body class="main_wrap contact-page">
+
+      
+            <header role="banner" class="navbar-header">
+                <div class="navbar-container">
+                    <!-- logo -->
+                    <a class="navbar-logo" title="" href="index.html">
+                        <img src="images/logo.svg" alt="logo" class="top_logo"  />
+                    </a>
+        
+                   
+        
+
+
+                    <div class="right_nav">
+
+                         <!-- mobile nav toggle -->
+                        <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                        </button>
+
+                        <!-- desktop nav-->
+                        <nav class="desktop-nav" role="navigation">
+                            <ul class="navbar-menu">
+                                <li class="menu-item"><a class="active" href="index.html">Home</a></li>
+                                <li class="menu-item"><a href="about-us.html">About Us</a></li>
+                                <li class="menu-item"><a href="our-products.html">Our Products</a></li>
+                                <li class="menu-item"><a href="our-process.html">Our Process</a></li>
+                                <li class="menu-item"><a href="sustainability.html">Sustainability</a></li>
+                                <li class="menu-item"><a href="contact.html">Contact</a></li>
+                            </ul> 
+            
+                        </nav>
+            
+                        
+                        <!-- phone icon -->
+                        <div class="phone">
+                            <a href="tel:+3531234567">
+                                <img src="images/phone.svg" alt="phone icon" width="25" height="25" />
+                            </a>
+                        </div>
+        
+                    
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- mobile nav -->
+                 <div class="mobile_nav_wrapper" role="navigation">
+                    <ul class="mobile-navbar-menu">
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="about-us.html">About Us</a></li>
+                        <li class="menu-item"><a href="our-products.html">Our Products</a></li>
+                        <li class="menu-item"><a href="our-process.html">Our Process</a></li>
+                        <li class="menu-item"><a href="sustainability.html">Sustainability</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                    </ul> 
+                 </div>
+            </header>
+        
+		
+        <main class="main">
+			<div class="top-images">
+				<img src="images/hero rounded-1.webp" fetchpriority="high" class="top-images image-1" alt="chefs preparing food in a kitchen"/>
+				<img src="images/Background.webp" class="top-images image-2" alt="strips of bacon on a stone with garlic, tomato and salt granules"/>
+				<img src="images/hero rounded-2.webp" class="top-images image-3" alt="bacon products stacked on the shelves of a supermarket"/>
+			</div>
+			<div class="row form and contact-us-pic middle">
+			<div class="col">
+			<!-----------------------------------------------------------------------Boostrap Form Beginning-------------------------------------------------------------------->
+				<form id="form" class="form">
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Email address</label>
+						<input type="email" class="form-control" id="email" placeholder="name@example.com">
+					</div>
+					<div class="mb-3">
+						<label for="exampleFormControlTextarea1" class="form-label">Get in touch!</label>
+						<textarea class="form-control" id="comment" rows="7" placeholder="Leave us a comment"></textarea>
+					</div>
+					<button onsubmit="submit(event)" onclick="button()" type="button" class="btn btn-primary"
+							style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+							Submit Form
+					</button>
+				</form>
+				<!-----------------------------------------------------------------------Boostrap Form End-------------------------------------------------------------------->
+					<p id="form-submission-complete"><strong>Thanks you for getting in touch, we will reach out to you as soon as possible.</strong></p>
+			</div>
+				<div class="col form-text">
+					<h1 class="contact-heading">Contact Details</h1> <!--Source:http://dewvalley.com/contacts.html -->
+					<p>Telephone: +353 504 57900</p>
+					<p>Email: 
+					<a class="email" href="mailto:info@dewvalley.com" class="email">info@dewvalley.com</a> 
+					</p>
+				</div>
+				
+			</div>
+			<div class="map">
+				<div class="map_content">
+					<h3 class="title">Find us at:</h3>
+					<li>
+						Commons, Holycross Road
+					</li>
+					<li>
+						Co. Tipperary
+					</li>
+					<li>
+						E41 CX29
+					</li>
+					<li>
+						Ireland
+					</li>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9663.914601220435!2d-7.834759371844313!3d52.67569945833602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485cc4f13cf381fd%3A0x9b45ff1c4669e650!2sDew%20Valley%20Foods%20Limited!5e0!3m2!1sen!2suk!4v1763831199960!5m2!1sen!2suk" width="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div class="container-fluid social-media">
+				<div>
+					<a href="https://www.instagram.com" class="link" target="_blank">
+				  <img src="images/instagram.webp" class="image"/>
+                  </a>
+				</div>
+				<div class="padding-social">
+					<a href="https://www.linkedin.com/company/dew-valley-foods" class="link" target="_blank">
+				  <img src="images/linkedin.webp" class="image"/>
+                  </a>
+				</div>
+				<div>
+					<a href="https://www.youtube.com/" class="link" target="_blank">
+				  <img src="images/youtube.webp" class="image"/>
+                  </a>
+				</div>
+			</div>
+        </main>
+        <footer class="footer">
+
+            <div class="arrow_up">
+                <img src="images/arrow_up.svg" alt="arrow up " width="31" height="31" />
+            </div>
+
+            <div class="footer_left">
+                <img class="footer_logo" src="images/footer_logo.svg" alt="footer logo" />
+            </div>
+            <div class="footer_right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="our-products.html">Our Products</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="our-process.html">Our Process</a>
+                    </li>
+                    <li>
+                        <a href="sustainability.html">Sustainability</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

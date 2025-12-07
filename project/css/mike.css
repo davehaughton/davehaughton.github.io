@@ -1,10 +1,14 @@
-.contact-top{
-	padding:40px;
-}
-
 .map iframe{
     width:100%;
-    height:80vh;
+    height:30vh;
+}
+
+.navbar-header{
+	position:absolute;
+}
+
+.contact-our-process{
+	position:absolute;
 }
 .map{
 	position: relative;
@@ -49,31 +53,9 @@
 	transform:scale(1.10);
 	color:white;
 }
-.map .map_content1:hover{
-    position:absolute;
-    right:20px;
-    top:20px;
-    background:#D1082A;
-    padding:30px;
-    box-shadow: 5px 10px 25px #888888;
-	border-radius: 25px;
-	padding: 20px;
-	width: 200px;
-	height: 200px;
-	transition:scale(1.10);
-	transform:ease;
-	transition-duration:1s;
-	color:white;
-}
 
 .middle{
-	padding-bottom:20px;
-	padding-top:20px;
-}
-
-.contact-img-shan{
-	padding-bottom:15px;
-	padding-right:20px;
+	padding-bottom:10px;
 }
 
 .container-fluid{
@@ -81,7 +63,6 @@
 }
 
 .social-media{
-	float:start;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -106,7 +87,6 @@
 }
 
 .form-text{
-	justify-content:flex;
 	text-align:center;
 	align-content:center;
 	font-size:150%;
@@ -115,33 +95,24 @@
 #form-submission-complete{
 	display:none;
 	justify-content:center;
-	vertical-align:centre;
 	padding-top:180px;
 	text-align:center;
 	font-size:200%;
 }
 
 .contact-heading{
-	
-	
+	padding-bottom:40px;
+	font-size:200%;
 }
 
 .about-linkedin{
 	padding-bottom:4px;
 }
 
-.social-images{
-	padding:20px;
+.top-images{
+	padding-top:10px;
+	padding-bottom:10px;
 	text-align:center;
-	display: flex;
-	gap:20px;
-}
-.social-image{
-	flex: 1;  
-    min-width: 0;    
-    max-width: 100%;  
-    height: auto;
-    object-fit: cover;
 }
 
 .mid-section{
@@ -159,13 +130,12 @@
 .accordion-header{
 	text-align:center;
 	align-content:center;
-	display:center;
 }
 
 .accordion{
 	color:black;
-	--bs-accordion-btn-bg: #F2EEE5;
-	--bs-accordion-active-bg: #F2EEE5;
+	--bs-accordion-btn-bg: #F2EEE5; /*bootstrap accordion & supporting code: https://getbootstrap.com/docs/5.3/components/accordion/ */
+	--bs-accordion-active-bg: #F2EEE5; /*bootstrap accordion & supporting code: https://getbootstrap.com/docs/5.3/components/accordion/ */
 }
 
 .accordion-body{
@@ -177,6 +147,7 @@
 	color:black;
 	border-radius:0px;
 }
+
 
 .carousel{
 	padding-bottom:20px;
@@ -196,6 +167,10 @@
 	justify-content:left;
 	align-items:start;
 	line-height:1.9;
+}
+
+.list{
+	font-size:1.275em;
 }
 
 .bottom-buttons{
@@ -230,9 +205,6 @@
 	.image-3{
         display:none
     }
-    .contact-img-shan{
-		display:none;
-	}
     .footer{
         display: block;
     }
@@ -242,9 +214,6 @@
 }
 
 @media (max-width: 1100px) {
-    .contact-img-shan{
-		display:none;
-	}
 	.carousel{
 		width:737px;
 		height:425px;
@@ -258,9 +227,6 @@
 	.image-3{
         display:none
     }
-    .contact-img-shan{
-		display:none;
-	}
 	.carousel{
 		width:737px;
 		height:425px;
